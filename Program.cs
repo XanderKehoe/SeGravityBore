@@ -24,14 +24,6 @@ namespace IngameScript
 
         float desiredMiningSpeed = 0.5f;
 
-        // TODO
-            // Fix Finish State
-                // Test
-            // Implement new debug message when returning to surface to determine distance to start point
-            // Save data for world loads
-            // Import data from world loads
-            // Ensure all thrusters are enabled at initialization.
-
         public abstract class State
         {
             protected StateMachineManager stateMachineManager;
